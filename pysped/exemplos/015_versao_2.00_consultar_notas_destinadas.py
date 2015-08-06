@@ -41,7 +41,11 @@
 
 from __future__ import division, print_function, unicode_literals
 
+import os
 from os.path import abspath, dirname
+import sys
+sys.path.insert(0, abspath(os.path.join(os.path.dirname(__file__), "../../")))
+sys.path.append(os.path.dirname(__file__))
 from pysped.nfe import ProcessadorNFe
 
 
@@ -62,15 +66,17 @@ FILE_DIR = abspath(dirname(__file__))
 
 if __name__ == '__main__':
     p = ProcessadorNFe()
-    p.versao              = '2.00'
-    p.estado              = 'SP'
-    #p.certificado.arquivo = 'certificado.pfx'
-    #p.certificado.senha   = 'senha'
+    p.versao = '3.10'
+    p.estado = 'RJ'
+    # p.certificado.arquivo = 'certificado.pfx'
+    # p.certificado.senha   = 'senha'
 
     #
     # arquivo 'certificado_caminho.txt' deve conter o caminho para o 'certificado.pfx'
     #
-    p.certificado.arquivo = open(FILE_DIR+'/certificado_caminho.txt').read().strip()
+    import pdb
+    pdb.set_trace()
+    p.certificado.arquivo = open(FILE_DIR + '/certificado_caminho.txt').read().strip()
 
     #
     # arquivo 'certificado_senha.txt' deve conter a senha para o 'certificado.pfx'
