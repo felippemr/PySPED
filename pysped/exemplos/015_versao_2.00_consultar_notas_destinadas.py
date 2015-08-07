@@ -46,7 +46,7 @@ from os.path import abspath, dirname
 import sys
 sys.path.insert(0, abspath(os.path.join(os.path.dirname(__file__), "../../")))
 sys.path.append(os.path.dirname(__file__))
-from pysped.nfe import ProcessadorNFe
+from PySPED.pysped.nfe import ProcessadorNFe
 
 
 FILE_DIR = abspath(dirname(__file__))

@@ -39,5 +39,5 @@
 # <http://www.gnu.org/licenses/>
 #
 
-from pysped.nfe.danfe.danfe import DANFE
-from pysped.nfe.danfe.daede import DAEDE
+from PySPED.pysped.nfe.danfe.danfe import DANFE
+from PySPED.pysped.nfe.danfe.daede import DAEDE

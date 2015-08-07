@@ -42,9 +42,9 @@
 from __future__ import division, print_function, unicode_literals
 
 import os
-from pysped.xml_sped import TagCaracter, XMLNFe
-from pysped.nfe.leiaute import ESQUEMA_ATUAL_VERSAO_2 as ESQUEMA_ATUAL
-from pysped.nfe.leiaute.eventonfe_100 import (DetEvento, EnvEvento,
+from PySPED.pysped.xml_sped import TagCaracter, XMLNFe
+from PySPED.pysped.nfe.leiaute import ESQUEMA_ATUAL_VERSAO_2 as ESQUEMA_ATUAL
+from PySPED.pysped.nfe.leiaute.eventonfe_100 import (DetEvento, EnvEvento,
                                               Evento, InfEvento,
                                               InfEventoRecebido,
                                               ProcEvento,

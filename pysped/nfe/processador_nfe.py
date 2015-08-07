@@ -68,7 +68,7 @@ import webservices_1
 import webservices_2
 import webservices_3
 
-from pysped.xml_sped.certificado import Certificado
+from PySPED.pysped.xml_sped.certificado import Certificado
 
 #
 # Manual do Contribuinte versão 2.1.00

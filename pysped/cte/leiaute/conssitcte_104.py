@@ -41,11 +41,11 @@
 
 from __future__ import division, print_function, unicode_literals
 
-from pysped.xml_sped import (ABERTURA, NAMESPACE_CTE, TagCaracter,
+from PySPED.pysped.xml_sped import (ABERTURA, NAMESPACE_CTE, TagCaracter,
                              TagDecimal, TagInteiro, XMLNFe, tira_abertura)
-from pysped.cte.leiaute import ESQUEMA_ATUAL_VERSAO_104 as ESQUEMA_ATUAL
-from pysped.cte.leiaute.consrecicte_104 import ProtCTe as ProtCTe_104
-from pysped.cte.leiaute.canccte_104 import RetCancCTe as RetCancCTe_104
+from PySPED.pysped.cte.leiaute import ESQUEMA_ATUAL_VERSAO_104 as ESQUEMA_ATUAL
+from PySPED.pysped.cte.leiaute.consrecicte_104 import ProtCTe as ProtCTe_104
+from PySPED.pysped.cte.leiaute.canccte_104 import RetCancCTe as RetCancCTe_104
 import os
 
 

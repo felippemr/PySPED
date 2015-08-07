@@ -41,9 +41,9 @@
 
 from __future__ import division, print_function, unicode_literals
 
-from pysped.xml_sped import *
-from pysped.nfe.leiaute import ESQUEMA_ATUAL_VERSAO_3 as ESQUEMA_ATUAL
-from pysped.nfe.leiaute import nfe_200
+from PySPED.pysped.xml_sped import *
+from PySPED.pysped.nfe.leiaute import ESQUEMA_ATUAL_VERSAO_3 as ESQUEMA_ATUAL
+from PySPED.pysped.nfe.leiaute import nfe_200
 import os
 
 DIRNAME = os.path.dirname(__file__)

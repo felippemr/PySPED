@@ -41,7 +41,7 @@
 
 from StringIO import StringIO
 from geraldo.generators import PDFGenerator
-from pysped.nfe.danfe.daederetrato import DAEDERetrato
+from PySPED.pysped.nfe.danfe.daederetrato import DAEDERetrato
 
 
 class DAEDE(object):

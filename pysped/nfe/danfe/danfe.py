@@ -41,9 +41,9 @@
 
 from StringIO import StringIO
 from geraldo.generators import PDFGenerator
-from pysped.nfe.danfe.danferetrato import DANFERetrato
-from pysped.nfe.leiaute import ProtNFe_310, RetCancNFe_200, ProcCancNFe_200
-from pysped.nfe.leiaute import ProcEventoCancNFe_100
+from PySPED.pysped.nfe.danfe.danferetrato import DANFERetrato
+from PySPED.pysped.nfe.leiaute import ProtNFe_310, RetCancNFe_200, ProcCancNFe_200
+from PySPED.pysped.nfe.leiaute import ProcEventoCancNFe_100
 
 
 class DANFE(object):

@@ -41,9 +41,9 @@
 
 from __future__ import division, print_function, unicode_literals
 
-from pysped.xml_sped import (ABERTURA, NAMESPACE_CTE, TagCaracter, TagDataHora,
+from PySPED.pysped.xml_sped import (ABERTURA, NAMESPACE_CTE, TagCaracter, TagDataHora,
                              TagDecimal, TagInteiro, XMLNFe, tira_abertura)
-from pysped.cte.leiaute import ESQUEMA_ATUAL_VERSAO_104 as ESQUEMA_ATUAL
+from PySPED.pysped.cte.leiaute import ESQUEMA_ATUAL_VERSAO_104 as ESQUEMA_ATUAL
 import os
 from cte_104 import CTe
 

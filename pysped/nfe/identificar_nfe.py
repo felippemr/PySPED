@@ -46,8 +46,8 @@ import re
 from lxml import etree
 
 from leiaute import *
-from pysped.xml_sped import XMLNFe, tira_abertura
-from pysped.xml_sped.certificado import Certificado
+from PySPED.pysped.xml_sped import XMLNFe, tira_abertura
+from PySPED.pysped.xml_sped.certificado import Certificado
 
 
 MAPA_ESQUEMAS = {}

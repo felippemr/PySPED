@@ -41,10 +41,10 @@
 
 from __future__ import division, print_function, unicode_literals
 
-from pysped.xml_sped import (ABERTURA, NAMESPACE_NFE, Signature,
+from PySPED.pysped.xml_sped import (ABERTURA, NAMESPACE_NFE, Signature,
                              TagDecimal, TagCaracter, TagDataHoraUTC,
                              TagInteiro, XMLNFe, tira_abertura)
-from pysped.nfe.leiaute import ESQUEMA_ATUAL_VERSAO_2 as ESQUEMA_ATUAL
+from PySPED.pysped.nfe.leiaute import ESQUEMA_ATUAL_VERSAO_2 as ESQUEMA_ATUAL
 
 import os
 

@@ -42,12 +42,12 @@
 from __future__ import division, print_function, unicode_literals
 
 import os
-from pysped.xml_sped import *
-from pysped.nfe.leiaute import ESQUEMA_ATUAL_VERSAO_3 as ESQUEMA_ATUAL
-from pysped.nfe.leiaute import ProtNFe_310
-from pysped.nfe.leiaute import ProcEventoCancNFe_100, ProcEventoCCe_100
-from pysped.nfe.leiaute import ProcEventoConfRecebimento_100, ProcEvento_100
-from pysped.nfe.leiaute import conssitnfe_201
+from PySPED.pysped.xml_sped import *
+from PySPED.pysped.nfe.leiaute import ESQUEMA_ATUAL_VERSAO_3 as ESQUEMA_ATUAL
+from PySPED.pysped.nfe.leiaute import ProtNFe_310
+from PySPED.pysped.nfe.leiaute import ProcEventoCancNFe_100, ProcEventoCCe_100
+from PySPED.pysped.nfe.leiaute import ProcEventoConfRecebimento_100, ProcEvento_100
+from PySPED.pysped.nfe.leiaute import conssitnfe_201
 
 DIRNAME = os.path.dirname(__file__)
 

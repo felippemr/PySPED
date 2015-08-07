@@ -41,9 +41,9 @@
 
 from __future__ import division, print_function, unicode_literals
 
-from pysped.xml_sped import (ABERTURA, NAMESPACE_NFE, TagDecimal, XMLNFe,
+from PySPED.pysped.xml_sped import (ABERTURA, NAMESPACE_NFE, TagDecimal, XMLNFe,
                              tira_abertura, tirar_acentos, por_acentos)
-from pysped.nfe.leiaute import ESQUEMA_ATUAL_VERSAO_1 as ESQUEMA_ATUAL
+from PySPED.pysped.nfe.leiaute import ESQUEMA_ATUAL_VERSAO_1 as ESQUEMA_ATUAL
 import os
 
 DIRNAME = os.path.dirname(__file__)

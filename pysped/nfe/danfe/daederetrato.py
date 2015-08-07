@@ -49,7 +49,7 @@ from geraldo import Report, SubReport
 from geraldo import SystemField, Line, Rect, Image
 from geraldo.barcodes import BarCode
 
-from pysped.relato_sped.base import (BandaDANFE,
+from PySPED.pysped.relato_sped.base import (BandaDANFE,
                                      Campo,
                                      DADO_CAMPO_NEGRITO,
                                      DADO_CAMPO_NUMERICO_NEGRITO,
@@ -81,7 +81,7 @@ from pysped.relato_sped.base import (BandaDANFE,
                                      MARGEM_SUPERIOR,
                                      RETRATO,
                                      Texto)
-from pysped.nfe.danfe.danferetrato import (DANFERetrato,
+from PySPED.pysped.nfe.danfe.danferetrato import (DANFERetrato,
     RemetenteRetrato as DANFERemetenteRetrato, DestinatarioRetrato)
 
 
