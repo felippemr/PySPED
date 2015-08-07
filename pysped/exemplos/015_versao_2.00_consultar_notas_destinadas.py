@@ -40,12 +40,7 @@
 #
 
 from __future__ import division, print_function, unicode_literals
-
-import os
 from os.path import abspath, dirname
-import sys
-sys.path.insert(0, abspath(os.path.join(os.path.dirname(__file__), "../../")))
-sys.path.append(os.path.dirname(__file__))
 from PySPED.pysped.nfe import ProcessadorNFe
 
 
@@ -74,8 +69,7 @@ if __name__ == '__main__':
     #
     # arquivo 'certificado_caminho.txt' deve conter o caminho para o 'certificado.pfx'
     #
-    import pdb
-    pdb.set_trace()
+
     p.certificado.arquivo = open(FILE_DIR + '/certificado_caminho.txt').read().strip()
 
     #
