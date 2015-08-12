@@ -169,8 +169,8 @@ class ConexaoHTTPS(HTTPSConnection):
 
 class ProcessadorNFe(object):
     def __init__(self):
-        self.ambiente = 2
-        self.estado = 'SP'
+        self.ambiente = 1
+        self.estado = 'RJ'
         self.versao = '3.10'
         self.certificado = Certificado()
         self.caminho = ''
